@@ -42,13 +42,19 @@ An important aspect of this session will be getting familiar with various robots
 |15-5-19  | Multiple-view Geometry 1 - Overview, Intro to visual odometry, Feature detection and matching, Motion estimation | Karnik | [Class slides](/lecture-slides/mvg-1.pdf) <br> [SIFT, F-matrix slides](/reference-material/) | [Original SIFT paper](https://link.springer.com/article/10.1023/B:VISI.0000029664.99615.94) <br> MVG Ch. 9 & 10|
 |17-5-19  | Multiple-view Geometry 2 - Epipolar geometry, RANSAC | Karnik | [Class slides](/lecture-slides/mvg-2.pdf) | MVG Ch. 9 & 11 <br> MVG Sec. 4.6 <br> [Moving object detection paper](https://ieeexplore.ieee.org/document/5354227)|
 |20-5-19  | Stereo | Mahtab | TBD | TBD|
-|21-5-19  | Multiple-view Geometry 3 - Triangulation, Resection, Bundle Adjustment | Karnik | TBD | TBD|
+|22-5-19  | Multiple-view Geometry 3 - Triangulation, Resection, Bundle Adjustment | Karnik | [Class slides](/lecture-slides/mvg-3.pdf) | MVG Ch. 12 <br> [E-PnP](https://cvlab.epfl.ch/software/multi-view-stereo/epnp/) <br> [Bundle adjustment](https://hal.inria.fr/inria-00548290)|
+|23-5-19  | DL 1 | Sarthak | Basic review of ML and forward propagation | TBD |
+|24-5-19  | DL 2 | Shashank | Back Propagation, CNN & Optimization Methods | CS231n lecture slides |
+|27-5-19  | DL 3 | Sarthak | PyTorch Introduction and Coding | TBD |
+|28-5-19  | DL 4 | Shashank | CNN Architectures, RNNs/LSTMS, object detection| CS231n lecture slides |
+|29-5-19  | DL 4 | Shashank | Coding LSTMs and time series prediction | TBD |
+|1-6-19   | Motion Planning | Mithun | Motion Planning overivew and Graph search methods | [Slides](/lecture-slides/mp-1.pdf), [Slides](/lecture-slides/mp-2.pdf) |
+|3-6-19   | Motion Planning | Mithun | Sampling based methods and Local Planning | [Slides](/lecture-slides/mp-3/) |
+|8-6-19  | Trajectory Generation/ ROS | Mithun, Gourav |  [ROS Tutorial](http://wiki.ros.org/ROS/Tutorials) | [ETH ROS Course](http://www.rsl.ethz.ch/education-students/lectures/ros.html) |
+|9-6-19  | ROS |  Gourav | [ROS Tutorial](http://wiki.ros.org/ROS/Tutorials)  | [ETH ROS Course](http://www.rsl.ethz.ch/education-students/lectures/ros.html) |
+|19-6-19  | RL Basics | Kaustubh | [slides](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html) | [DeepMind Lectures](https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ) |
 
 >Tentative Schedule of remaining topics to be covered
-
-**Projective Geometry/Multiview Geometry(13 - 24 May):**
-
-**Deep Learning & Tensor Flow(26 May- 7 June):**
 
 **Motion Planning(8 - 15 June):**
 
@@ -57,11 +63,14 @@ An important aspect of this session will be getting familiar with various robots
 **Lab Robots & other Hardwares(On Weekends):**
 
 ## Assignments
->All the assignments will be uploaded updated here with deadline in this section
 
-| Assignment No. | Release Date |       Topic      |       files        | Deadline| Extra Info |
-|:--------------:|:------------:|:----------------:|:------------------:|:-------:|:-------:|
-| 1              | 10th May 2019          | Linear Algebra, Optimization, Transformations              | [Assignment file](https://drive.google.com/file/d/1Vu6af6LKr7D_N-EFToYC0MuNv9F8MXC-/view)                | 14th May 2019     |mail to [Mithun](mailto:mithunbabu1141995@gmail.com) with your name and ID|
+| Assignment No. | Release Date |       Topic      |       files        | Deadline|
+|:--------------:|:------------:|:----------------:|:------------------:|:-------:|
+|1 | 10-5-19 | Linear Algebra, Optimization, Transformations | [Problem statement](https://drive.google.com/file/d/1Vu6af6LKr7D_N-EFToYC0MuNv9F8MXC-/view) | 14-5-19 |
+|2 | 15-5-19 | DLT Calibration | [Problem statement](assignments/assignment-2.pdf) | 19-5-19 |
+|3 | 25-5-19 | Two-view reconstruction | [Problem statement](assignments/assignment-3/instructions.md) | 29-5-19 |
+|4 | 27-5-19 | Deep Learning_Assign1 | [Problem statement](assignments/deeplearning_assign1) | 3-6-19 |
+
 
 ## References
 >This section will point out to research papers, text books and other resources for going deep into different topics
@@ -69,6 +78,8 @@ An important aspect of this session will be getting familiar with various robots
 **Lab Robots & other Hardwares(On Weekends):**
 
 **Linear Algebra/Vector Calculus/Optimization():**
+
+* Refer [Issue #1](https://github.com/iiith-rrc/summer-sessions-2019/issues/1) and [Issue #2](https://github.com/iiith-rrc/summer-sessions-2019/issues/2)
 
 **Rigid Body Transformations/Image Formation/ Camera Geometry():**
 
@@ -84,13 +95,18 @@ An important aspect of this session will be getting familiar with various robots
 
 **Motion Planning:**
 
+* Refer [Issue #13](https://github.com/iiith-rrc/summer-sessions-2019/issues/13)
+
 **Reinforcement Learning:**
+
+* Book: Reinforcement Learning by Sutton and Barto [pdf](http://incompleteideas.net/book/RLbook2018trimmed.pdf)
+* Reinforcement Learning lectures by David Silver [link](https://www.youtube.com/watch?v=2pWv7GOvuf0&list=PLqYmG7hTraZDM-OYHWgPebj2MfCFzFObQ)
 
 
 ## Contacts:
 ** For any doubts and querries regarding this session you can contact any one of the coordinators as mentioned below:**
 * Maths(Linear Algebra, Optimization, Probability & Statistics)
->Mithun Nallana <mithunbabu1141995@gmail.com><br />
+>Mithun Nallana <mithun.babu@research.iiit.ac.in><br />
 * Rigid Body Transformations, Image Formation, Camera Geometry
 >Gourav Kumar <gkumar.4548@gmail.com><br />
 * Projective Geometry, Multiview Geometry
@@ -98,12 +114,11 @@ An important aspect of this session will be getting familiar with various robots
 >Junaid Ahmad <ansariahmedjunaid@gmail.com><br />
 * Deep Learning
 >Sarthak Sharma <sarthak.alexrider@gmail.com><br />
->Mahtab Sandhu <mahtabsandhu@gmail.com><br />
 >S Shashank <shashank.s@research.iiit.ac.in><br />
 * Reinforcement Learning
 >kaustubh mani <kaustubh3095@gmail.com><br />
 * Motion Planning and Trajectory Optimization
->Mithun Nallana <mithunbabu1141995@gmail.com><br />
+>Mithun Nallana <mithun.babu@research.iiit.ac.in><br />
 * Hands-on sessions with Robots and sensors
 >Sriram N N <nnsriram97@gmail.com><br />
 >Gourav Kumar <gkumar.4548@gmail.com><br />
